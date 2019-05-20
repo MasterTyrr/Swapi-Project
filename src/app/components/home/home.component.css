@@ -1,0 +1,28 @@
+.Box{
+    background-color: rgb(37, 37, 37);
+    margin: 10vh auto;
+    width: 20vw;
+    position: center;
+    border-radius: 10%;
+}
+.nav-Button1{
+    font-size: 25px;
+    margin-top: 2vh;
+    background-color: transparent;
+    border: none;
+    height: 3vh;
+    width: 5vw;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-Button3{
+    font-size: 25px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    background-color: transparent;
+    border: none;
+    height: 3vh;
+    width: 5vw;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}

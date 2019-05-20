@@ -1,0 +1,12 @@
+.NavBar{
+    width: 90%
+}
+.NavBarButton{
+    height: 3vh;
+    width: 5vw;
+    margin-left: 10vw;
+    border: none;
+    border-radius: 15%;
+    color: red;
+    background-color: rgb(37, 37, 37);
+}

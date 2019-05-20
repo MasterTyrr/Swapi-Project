@@ -1,0 +1,12 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<table class="Table">
+    <tr class="Headers">
+        <th>Name</th>
+        <th>Details</th>
+    </tr>
+    <tr *ngFor="let people of peopleList" class="Content">
+        <td>{{people.name}}</td>
+        <td class="material-icons" (click)="openDialog(people)">list</td>
+    </tr>
+</table>

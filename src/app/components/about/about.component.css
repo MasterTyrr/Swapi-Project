@@ -1,0 +1,12 @@
+.Box{
+    background-color: rgb(37, 37, 37);
+    margin: 10vh auto;
+    /* height: 30vh;  */
+    width: 23vw;
+    position: center;
+    border-radius: 10%;
+}
+
+.description{
+    font-size: 20px;
+}

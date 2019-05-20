@@ -1,0 +1,11 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<table class= "Table">
+  <tr class="Headers">
+    <th>Film Title</th>
+    <th>Details</th>
+  </tr>
+  <tr *ngFor="let films of filmsList" class="Content">
+    <td>{{films.title}}</td>
+    <td class="material-icons" (click)="openDialog(films)">list</td>
+  </tr>
+</table>

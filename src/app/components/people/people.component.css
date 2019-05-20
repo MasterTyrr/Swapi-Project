@@ -1,0 +1,19 @@
+.material-icons:hover {
+    cursor: pointer;
+}
+.Table,th,tr{
+    border: 1px solid red;
+    border-collapse: collapse;
+    background-color: rgb(37, 37, 37);
+    font-size: 25px;
+}
+.Table{
+    margin: 5vh auto;
+}
+.Content{
+    text-align:left;
+}
+.material-icons{
+    margin-left: 1.2vw;
+    text-align: right;
+}
